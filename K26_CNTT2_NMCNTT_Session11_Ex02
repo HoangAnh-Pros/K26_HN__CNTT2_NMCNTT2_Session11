@@ -1,1 +1,16 @@
+Bài 2: Khắc phục sự cố dữ liệu trong kho thiết bị IoT
+*Phần 1: Phân tích lỗi
+- Vi phạm Merge Cell: Hàng tiêu đề bị gộp ô làm AutoFilter không nhận đúng vùng dữ liệu.
 
+- Vi phạm hàng trống: Có hàng trống giữa bảng khiến phạm vi lọc bị ngắt quãng.
+
+- Dữ liệu không đồng nhất: Khoảng trắng thừa khiến bộ lọc tách thành hai nhóm "hỏng" khác nhau.
+
+*Phần 2: Hướng dẫn sửa lỗi
+- Gỡ Merge Cell: Bỏ gộp ô ở vùng tiêu đề bảng.
+
+- Xóa hàng trống: Xóa các hàng trống nằm giữa bảng.
+
+- Dùng hàm TRIM: Dùng =TRIMđể x óa khoảng trắng thừa ở cột "Trạng thái", sau đó Paste Values đè lại.
+
+- Bật Filter: Đặt con trỏ vào bảng và nhấn Ctrl + Shift + L.
