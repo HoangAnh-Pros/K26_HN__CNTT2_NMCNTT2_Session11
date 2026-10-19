@@ -7,6 +7,6 @@ Bài 1 : Chuẩn hóa Heading Styles cho tài liệu SRS
 *Phần 2: Hướng dẫn sửa lỗi
 - Sửa lỗi đoạn văn: Bôi đen đoạn văn bản 5 trang bị gán nhãn nhầm và chuyển đổi định dạng của nó về lại Normal trên thanh công cụ Home.
 
-- Gán nhãn Heading chuẩn: Gán nhãn Heading 1 cho các tiêu đề lớn (ví dụ: "1. Giới thiệu", "2. Yêu cầu chức năng") và Heading 2 cho các tiểu mục con.
+- Gán nhãn Heading chuẩn: Gán nhãn Heading 1 cho các tiêu đề lớn  và Heading 2 cho các tiểu mục con.
 
 - Chèn và cập nhật Auto TOC: Vào tab References -> Table of Contents -> Chọn mẫu tự động. Khi có thay đổi nội dung, nhấn chuột phải vào mục lục chọn Update Field -> Update entire table để cập nhật lại số trang chính xác.
