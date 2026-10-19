@@ -1,1 +1,9 @@
-
+Bài 8: Chữa Lỗi Bảng Đăng Ký Báo Cáo Viên Không Lọc Được
+*Phần 1: Phân tích lỗi
+- Tiêu đề gộp ô: Vi phạm quy tắc(1), làm AutoFilter nhận diện sai phạm vi bảng.
+- Hàng trống và dòng tổng giữa bảng: Vi phạm quy tắc(4) và(5), làm AutoFilter bị cắt cụt phạm vi lọc.
+- Khoảng trắng vô hình: AutoFilter so sánh tuyệt đối từng ký tự, khiến dữ liệu thừa dấu cách bị bỏ sót.
+*Phần 2: Sửa lỗi & Nghiệm thu
+- Cấu trúc chuẩn: Đặt Header ở dòng đầu tiên (không gộp ô), dữ liệu liền mạch, chuyển dòng Tổng ra ngoài bảng.
+-Dùng =TRIM(cell) để xóa khoảng trắng thừa, sau đó Paste Values đè lại cột cũ.
+--> Bật Ctrl + Shift + L, lọc cột Khoa = CNTT và Điểm lớn hơn hoặc bằng  8.0 điểm
