@@ -11,6 +11,6 @@ Bài 2: Khắc phục sự cố dữ liệu trong kho thiết bị IoT
 
 - Xóa hàng trống: Xóa các hàng trống nằm giữa bảng.
 
-- Dùng hàm TRIM: Dùng =TRIMđể x óa khoảng trắng thừa ở cột "Trạng thái", sau đó Paste Values đè lại.
+- Dùng hàm TRIM: Dùng =TRIM() để x óa khoảng trắng thừa ở cột "Trạng thái", sau đó Paste Values đè lại.
 
 - Bật Filter: Đặt con trỏ vào bảng và nhấn Ctrl + Shift + L.
